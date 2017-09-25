@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
+from django.test import LiveServerTestCase
 
 import time
 
-from django.test import LiveServerTestCase
 
 MAX_WAIT = 10
 
